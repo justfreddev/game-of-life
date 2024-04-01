@@ -1,0 +1,3 @@
+# John Conway's Game of Life Simulation
+
+A Python program to simulate the Game of Life. There are three versions written: `original.py`, `bitboard.py` and `gui.py`. `original.py` is, unsurprisingly, the original version. I then iterated on it and optimised it to make it more efficient and faster using bitboards and a better implementation of the rules. This bitboard implementation is ~40% faster than the original version (1.9ms -> 1.13ms, *completely* unnecessary but interesting to implement).Then `gui.py` uses Pygame to create a GUI for the simulation.
